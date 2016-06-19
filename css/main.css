@@ -1,0 +1,103 @@
+body { padding-top: 50px; }
+nav { background-color: #352d2f;
+min-height: 50px;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 2; }
+nav .logo { background-color: #f63c3c;
+color: #fff;
+display: inline-block;
+margin-left: 10%;
+padding: 9px 10px 10px; }
+nav .logo span:first-child {position: relative;
+left: 1px;}
+nav ul.sitenav { display: inline-block;
+float: right;
+margin-right: 10%; }
+nav ul.sitenav li {display: inline-block;
+margin-right: -4px;}
+nav ul.sitenav a { color: #fff;
+display: inline-block;;
+padding: 16px 20px; }
+nav li a:hover { border-bottom: 3px solid #fff; }
+#intro { background-color: #352d2f;
+color: #fff;
+min-height: 600px;
+position: relative;
+text-align: center; }
+#intro h1 { font-size: 50px;
+letter-spacing: 10px;
+margin: 0 auto;
+padding: 15% 0 5%;
+width: 60%; }
+#intro button { background-color: transparent;
+border: 1px solid #fff;
+color: #fff;
+cursor: pointer;
+padding: 10px 15px; }
+#intro a { bottom: 30px;
+color: inherit;
+display: block;
+position: absolute;
+width: 100%; }
+#intro p { font-size: 16px;
+margin-top: 5px; }
+#explore { margin: 0 auto;
+padding: 3% 0;
+text-align: center;
+width: 60%; }
+#explore h2 { font-size: 30px;
+letter-spacing: 5px;
+line-height: 30px; }
+#explore button { background-color: #f63c3c;
+border: 1px solid #fff;
+color: #fff;
+cursor: pointer;
+padding: 10px 15px; }
+#projects { color: #fff;
+height: 600px; }
+#projects .main-feature {background-color: #f63c3c;
+	float: left;
+	height: 550px;
+	width: 50%;}
+}
+.main-feature h4 {font-size: 14px;
+margin: 50% 10% 0;}
+.main-feature h3{ font-size: 30px;
+letter-spacing: 2px;
+margin: 0 10%; }
+.main-feature p { font-size: 12px;
+line-height: 20px;
+margin: 0 10%;
+width: 45%; }
+#projects .side-feature{ background-color: #352d2f;
+float: right;
+height: 275px;
+width: 50%; }
+#projects .side-feature:nth-child(3) {background-color: #30282a;}
+.side-feature h3 {font-size: 30px;
+letter-spacing: 2px;
+margin: 20% 10% 0;}
+.side-feature p { font-size: 12px;
+line-height: 20px;
+margin: 0 10%;
+width: 45%; }
+#projects .bottom-feature {
+	background-color: #30282a;
+	clear: both;
+	height: 50px;
+	padding: 10px 0;
+	text-align: center; }
+.bottom-feature a {
+	border-bottom: 3px solid #fff;
+	color: #fff;
+	font-size: 14px;
+	margin: 0 auto;
+	padding: 5px;
+	width: 14%;
+}
+
+
+
+
